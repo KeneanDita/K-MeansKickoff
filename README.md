@@ -22,8 +22,7 @@ Unsupervised player clustering using the K-Means algorithm built **from scratch*
 
 - ✅ K-Means algorithm coded entirely from scratch  
 - ✅ Custom initialization, distance metric, and convergence criteria  
-- ✅ Data normalization and feature selection  
-- ✅ Elbow method and silhouette analysis for optimal K  
+- ✅ Data normalization and feature selection
 - ✅ 2D visualization of clustered players using PCA or t-SNE
 
 ## Example Output
@@ -59,21 +58,8 @@ Unsupervised player clustering using the K-Means algorithm built **from scratch*
    python main.py
    ```
 
-## Results & Insights
-
-The algorithm was able to cluster players into distinct groups such as:
-
-* **Elite Forwards**: High shooting and pace
-* **Playmakers**: High passing and dribbling
-* **Defensive Anchors**: High defending and physicality
-* ...and more!
-
 ## Possible Improvements
 
 * Try different distance metrics (cosine, Manhattan)
 * Implement K-Means++ initialization
-* Compare with scikit-learn's KMeans
 * Use DBSCAN or hierarchical clustering for comparison
-
-
-
