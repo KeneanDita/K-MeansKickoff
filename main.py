@@ -24,7 +24,7 @@ def new_centroids(data, labels, k):
     return pd.DataFrame(new_c).T
 
 
-def plot_clusters(data, labels, centroids, iteration, save_dir="cluster_images"):
+def plot_clusters(data, labels, centroids, iteration, save_dir="assets/cluster_images"):
     os.makedirs(save_dir, exist_ok=True)
 
     pca = PCA(n_components=2)
